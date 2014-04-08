@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+environment/project/xilinx.gnu.arm.exe.debug.2049187980/PATH/delimiter=;
+environment/project/xilinx.gnu.arm.exe.debug.2049187980/PATH/operation=append
+environment/project/xilinx.gnu.arm.exe.debug.2049187980/PATH/value=PATH\=C\:\\Xilinx\\SDK\\2013.4\\bin\\nt;C\:\\Xilinx\\SDK\\2013.4\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\microblaze\\nt\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\powerpc-eabi\\nt\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnuwin\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\arm\\nt\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\microblaze\\linux_toolchain\\nt_be\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\microblaze\\linux_toolchain\\nt_le\\bin;%PATH%
+environment/project/xilinx.gnu.arm.exe.debug.2049187980/append=true
+environment/project/xilinx.gnu.arm.exe.debug.2049187980/appendContributed=true
+environment/project/xilinx.gnu.arm.exe.release.19236608/PATH/delimiter=;
+environment/project/xilinx.gnu.arm.exe.release.19236608/PATH/operation=append
+environment/project/xilinx.gnu.arm.exe.release.19236608/PATH/value=PATH\=C\:\\Xilinx\\SDK\\2013.4\\bin\\nt;C\:\\Xilinx\\SDK\\2013.4\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\microblaze\\nt\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\powerpc-eabi\\nt\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnuwin\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\arm\\nt\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\microblaze\\linux_toolchain\\nt_be\\bin;C\:\\Xilinx\\SDK\\2013.4\\gnu\\microblaze\\linux_toolchain\\nt_le\\bin;%PATH%
+environment/project/xilinx.gnu.arm.exe.release.19236608/append=true
+environment/project/xilinx.gnu.arm.exe.release.19236608/appendContributed=true

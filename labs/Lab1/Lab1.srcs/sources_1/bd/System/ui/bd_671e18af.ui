@@ -1,0 +1,58 @@
+{
+   guistr: "# # String gsaved with Nlview version 6.3.3  2013-08-16 bk=1.2871 VDI=33 GEI=35
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 90 -defaultsOSRD
+preplace port leds_8bits -pg 1 -y 280 -defaultsOSRD
+preplace port sws_8bits -pg 1 -y 300 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 110 -defaultsOSRD
+preplace port BTNR -pg 1 -y 60 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph|s00_couplers|auto_pc -pg 1 -lvl 1 -y 200 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph|s00_couplers -pg 1 -lvl 1 -y 190 -regy -60 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph|m00_couplers -pg 1 -lvl 3 -y 170 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph|xbar -pg 1 -lvl 2 -y 220 -defaultsOSRD
+preplace inst rst_processing_system7_0_100M -pg 1 -lvl 2 -y 110 -defaultsOSRD
+preplace inst sw_8bit -pg 1 -lvl 1 -y 420 -defaultsOSRD
+preplace inst led_8bit -pg 1 -lvl 4 -y 370 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph|m01_couplers -pg 1 -lvl 3 -y 340 -defaultsOSRD
+preplace inst processing_system7_0_axi_periph -pg 1 -lvl 3 -y 180 -regy -100 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 140 -defaultsOSRD -resize 340 220
+preplace netloc processing_system7_0_DDR 1 1 4 460 220 NJ 20 NJ 90 NJ
+preplace netloc processing_system7_0_axi_periph|s00_couplers|s00_couplers_to_auto_pc 1 0 1 N
+preplace netloc processing_system7_0_axi_periph|s00_couplers|S_ARESETN_1 1 0 1 1190
+preplace netloc processing_system7_0_axi_periph|m01_couplers_to_processing_system7_0_axi_periph 1 3 1 N
+preplace netloc processing_system7_0_axi_periph|S00_ARESETN_1 1 0 1 N
+preplace netloc processing_system7_0_axi_periph|processing_system7_0_axi_periph_to_s00_couplers 1 0 1 N
+preplace netloc processing_system7_0_axi_periph_M00_AXI 1 0 4 40 340 NJ 340 NJ 40 2060
+preplace netloc processing_system7_0_axi_periph|M01_ARESETN_1 1 0 3 NJ 350 NJ 350 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 NJ 240 850
+preplace netloc processing_system7_0_axi_periph|xbar_to_m00_couplers 1 2 1 1690
+preplace netloc sw_8bit_GPIO 1 1 4 NJ 420 NJ 490 NJ 490 2320
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 1 1 450
+preplace netloc processing_system7_0_axi_periph|s00_couplers|auto_pc_to_s00_couplers 1 1 1 N
+preplace netloc processing_system7_0_axi_periph|s00_couplers|S_ACLK_1 1 0 1 1180
+preplace netloc led_8bit_GPIO 1 4 1 2310
+preplace netloc processing_system7_0_axi_periph|xbar_to_m01_couplers 1 2 1 1710
+preplace netloc processing_system7_0_axi_periph|m00_couplers_to_processing_system7_0_axi_periph 1 3 1 N
+preplace netloc rst_processing_system7_0_100M_peripheral_aresetn 1 0 4 30 350 NJ 350 810 480 NJ
+preplace netloc processing_system7_0_axi_periph|s00_couplers_to_xbar 1 1 1 N
+preplace netloc processing_system7_0_axi_periph|M01_ACLK_1 1 0 3 NJ 330 NJ 330 NJ
+preplace netloc processing_system7_0_axi_periph|processing_system7_0_axi_periph_ARESETN_net 1 0 3 1040 300 1480 310 1720
+preplace netloc processing_system7_0_FIXED_IO 1 1 4 430 230 NJ 30 NJ 110 NJ
+preplace netloc processing_system7_0_axi_periph|M00_ARESETN_1 1 0 3 NJ 310 NJ 150 NJ
+preplace netloc processing_system7_0_axi_periph|M00_ACLK_1 1 0 3 NJ 90 NJ 90 NJ
+preplace netloc processing_system7_0_GPIO_0 1 1 4 NJ 210 NJ 10 NJ 60 N
+preplace netloc rst_processing_system7_0_100M_interconnect_aresetn 1 2 1 830
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 280 440 250 860 470 NJ
+preplace netloc processing_system7_0_axi_periph|processing_system7_0_axi_periph_ACLK_net 1 0 3 1060 290 1490 300 1700
+preplace netloc processing_system7_0_axi_periph_M01_AXI 1 3 1 2080
+preplace netloc processing_system7_0_axi_periph|S00_ACLK_1 1 0 1 N
+levelinfo -pg 1 0 230 630 1500 2210 2340
+levelinfo -hier processing_system7_0_axi_periph 1020 1280 1590 1840 1970
+levelinfo -hier processing_system7_0_axi_periph|s00_couplers 1160 1280 1400
+",
+}
+{
+   da_axi4_cnt: "2",
+   da_board_cnt: "2",
+   da_ps7_cnt: "1",
+}
