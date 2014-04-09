@@ -57,7 +57,7 @@ int main (void)
           XGpioPs_WritePin(&psGpioInstancePtr,iPinNumber,pshb_check);
           if(sw_check==0xFF)
         	  break;
-		  for (i=0; i<99999999; i++); // delay loop
+		  for (i=0; i<9999999; i++); // delay loop
 	   }
 	  xil_printf("-- End of Program --\r\n");
 	  return 0;
