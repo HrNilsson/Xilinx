@@ -2,8 +2,8 @@
 # Vivado v2013.4
 # SW Build 353583 on Mon Dec  9 17:38:55 MST 2013
 # IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
-# Start of session at: Thu Apr 10 10:15:55 2014
-# Process ID: 1928
+# Start of session at: Thu Apr 10 10:57:42 2014
+# Process ID: 5388
 # Log file: C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/System_wrapper.rds
 # Journal file: C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
@@ -26,7 +26,7 @@ source System_wrapper.tcl
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/led_ip'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2013.4/data/ip'.
-add_files: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 335.977 ; gain = 31.188
+add_files: Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 336.324 ; gain = 30.852
 # set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/System_processing_system7_0_0.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_gpio_0_0/System_axi_gpio_0_0.xdc]
@@ -40,18 +40,14 @@ add_files: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 3
 # set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/System_xbar_1_ooc.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_bram_ctrl_0_0/System_axi_bram_ctrl_0_0_ooc.xdc]
 # set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_bram_ctrl_0_bram_0/System_axi_bram_ctrl_0_bram_0_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/System_auto_pc_23_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_24/System_auto_pc_24_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_25/System_auto_pc_25_ooc.xdc]
-# set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_26/System_auto_pc_26_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_27/System_auto_pc_27_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_28/System_auto_pc_28_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_29/System_auto_pc_29_ooc.xdc]
+# set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_30/System_auto_pc_30_ooc.xdc]
 # set_property used_in_implementation false [get_files -all C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/System_ooc.xdc]
 # set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 # set_property is_locked true [get_files C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/System.bd]
 # read_vhdl C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System_wrapper.vhd
-# read_xdc C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc
-# set_property used_in_implementation false [get_files C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc]
-# read_xdc C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc
-# set_property used_in_implementation false [get_files C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc]
 # read_xdc {{C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab3 files/lab3_system.xdc}}
 # set_property used_in_implementation false [get_files {{C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab3 files/lab3_system.xdc}}]
 # read_xdc dont_touch.xdc
@@ -67,7 +63,7 @@ Starting synthesis...
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:07:09 ; elapsed = 00:08:41 . Memory (MB): peak = 382.051 ; gain = 122.141
+Starting RTL Elaboration : Time (s): cpu = 00:05:48 ; elapsed = 00:07:14 . Memory (MB): peak = 386.375 ; gain = 126.727
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'System_wrapper' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System_wrapper.vhd:32]
 INFO: [Synth 8-3491] module 'System' declared at 'C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:2650' bound to instance 'System_i' of component 'System' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System_wrapper.vhd:62]
@@ -1502,9 +1498,9 @@ INFO: [Synth 8-256] done synthesizing module 'processing_system7_v5_3_processing
 INFO: [Synth 8-256] done synthesizing module 'System_processing_system7_0_0' (40#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_processing_system7_0_0/synth/System_processing_system7_0_0.vhd:126]
 INFO: [Synth 8-638] synthesizing module 'System_processing_system7_0_axi_periph_0' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:1610]
 INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_VG7ZLK' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:64]
-INFO: [Synth 8-3491] module 'System_auto_pc_23' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/synth/System_auto_pc_23.v:57' bound to instance 'auto_pc' of component 'System_auto_pc_23' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:236]
-INFO: [Synth 8-638] synthesizing module 'System_auto_pc_23' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/synth/System_auto_pc_23.v:57]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-3491] module 'System_auto_pc_27' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_27/synth/System_auto_pc_27.v:57' bound to instance 'auto_pc' of component 'System_auto_pc_27' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'System_auto_pc_27' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_27/synth/System_auto_pc_27.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_M_AXI_PROTOCOL bound to: 2 - type: integer 
 	Parameter C_S_AXI_PROTOCOL bound to: 0 - type: integer 
@@ -1530,7 +1526,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protoco
 	Parameter P_SLVERR bound to: 2'b10 
 	Parameter P_PROTECTION bound to: 1 - type: integer 
 	Parameter P_CONVERSION bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
 	Parameter C_S_AXI_PROTOCOL bound to: 0 - type: integer 
 	Parameter C_AXI_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
@@ -1837,32 +1833,32 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi' [c:
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 36 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi' (43#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
 INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice' (44#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
 	Parameter C_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter P_AXBURST_FIXED bound to: 2'b00 
 	Parameter P_AXBURST_INCR bound to: 2'b01 
 	Parameter P_AXBURST_WRAP bound to: 2'b10 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' (45#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_incr_cmd' (45#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v:11]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' (46#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' (47#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wrap_cmd' (46#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v:11]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_cmd_translator' (47#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v:17]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE_WAIT bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' (48#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' (49#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
+INFO: [Synth 8-226] default block is never used [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:64]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_wr_cmd_fsm' (48#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_aw_channel' (49#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
 	Parameter C_ID_WIDTH bound to: 1 - type: integer 
 	Parameter LP_RESP_OKAY bound to: 2'b00 
 	Parameter LP_RESP_EXOKAY bound to: 2'b01 
@@ -1874,7 +1870,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_b_chann
 	Parameter P_RWIDTH bound to: 2 - type: integer 
 	Parameter P_RDEPTH bound to: 4 - type: integer 
 	Parameter P_RAWIDTH bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 9 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -1882,8 +1878,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' (50#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo' (50#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 2 - type: integer 
 	Parameter C_AWIDTH bound to: 2 - type: integer 
 	Parameter C_DEPTH bound to: 4 - type: integer 
@@ -1891,20 +1887,20 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 2'b00 
 	Parameter C_FULL bound to: 2'b10 
 	Parameter C_FULL_PRE bound to: 2'b01 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' (50#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' (51#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized0' (50#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_b_channel' (51#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v:10]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
 	Parameter C_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
 	Parameter SM_IDLE bound to: 2'b00 
 	Parameter SM_CMD_EN bound to: 2'b01 
 	Parameter SM_CMD_ACCEPTED bound to: 2'b10 
 	Parameter SM_DONE bound to: 2'b11 
-INFO: [Synth 8-226] default block is never used [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:72]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' (52#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' (53#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
+INFO: [Synth 8-226] default block is never used [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:72]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_rd_cmd_fsm' (52#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v:10]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_ar_channel' (53#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v:5]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
 	Parameter C_ID_WIDTH bound to: 1 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 32 - type: integer 
 	Parameter P_WIDTH bound to: 2 - type: integer 
@@ -1913,7 +1909,7 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_r_chann
 	Parameter P_D_WIDTH bound to: 34 - type: integer 
 	Parameter P_D_DEPTH bound to: 32 - type: integer 
 	Parameter P_D_AWIDTH bound to: 5 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 34 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -1921,8 +1917,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' (53#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized1' (53#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
 	Parameter C_WIDTH bound to: 2 - type: integer 
 	Parameter C_AWIDTH bound to: 5 - type: integer 
 	Parameter C_DEPTH bound to: 32 - type: integer 
@@ -1930,8 +1926,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_
 	Parameter C_EMPTY_PRE bound to: 5'b00000 
 	Parameter C_FULL bound to: 5'b11110 
 	Parameter C_FULL_PRE bound to: 5'b11010 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' (53#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' (54#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized2' (53#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v:9]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s_r_channel' (54#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v:21]
 INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
 	Parameter C_FAMILY bound to: virtex6 - type: string 
 	Parameter C_AXI_PROTOCOL bound to: 2 - type: integer 
@@ -2232,26 +2228,26 @@ INFO: [Synth 8-638] synthesizing module 'axi_infrastructure_v1_1_vector2axi__par
 	Parameter G_AXI_RPAYLOAD_WIDTH bound to: 34 - type: integer 
 INFO: [Synth 8-256] done synthesizing module 'axi_infrastructure_v1_1_vector2axi__parameterized0' (54#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_infrastructure_v1_1/hdl/verilog/axi_infrastructure_v1_1_vector2axi.v:60]
 INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_axi_register_slice__parameterized0' (54#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v:64]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s' (55#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (56#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
-INFO: [Synth 8-256] done synthesizing module 'System_auto_pc_23' (57#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/synth/System_auto_pc_23.v:57]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_b2s' (55#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v:39]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter' (56#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-256] done synthesizing module 'System_auto_pc_27' (57#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_27/synth/System_auto_pc_27.v:57]
 INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_VG7ZLK' (58#1) [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:64]
 INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_180AW1Y' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:359]
-INFO: [Synth 8-3491] module 'System_auto_pc_24' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_24/synth/System_auto_pc_24.v:57' bound to instance 'auto_pc' of component 'System_auto_pc_24' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:531]
-INFO: [Synth 8-638] synthesizing module 'System_auto_pc_24' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_24/synth/System_auto_pc_24.v:57]
-INFO: [Synth 8-256] done synthesizing module 'System_auto_pc_24' (59#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_24/synth/System_auto_pc_24.v:57]
+INFO: [Synth 8-3491] module 'System_auto_pc_28' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_28/synth/System_auto_pc_28.v:57' bound to instance 'auto_pc' of component 'System_auto_pc_28' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:531]
+INFO: [Synth 8-638] synthesizing module 'System_auto_pc_28' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_28/synth/System_auto_pc_28.v:57]
+INFO: [Synth 8-256] done synthesizing module 'System_auto_pc_28' (59#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_28/synth/System_auto_pc_28.v:57]
 INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_180AW1Y' (60#1) [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:359]
 INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_WNEIF9' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:656]
-INFO: [Synth 8-3491] module 'System_auto_pc_25' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_25/synth/System_auto_pc_25.v:57' bound to instance 'auto_pc' of component 'System_auto_pc_25' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:830]
-INFO: [Synth 8-638] synthesizing module 'System_auto_pc_25' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_25/synth/System_auto_pc_25.v:57]
-INFO: [Synth 8-256] done synthesizing module 'System_auto_pc_25' (61#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_25/synth/System_auto_pc_25.v:57]
+INFO: [Synth 8-3491] module 'System_auto_pc_29' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_29/synth/System_auto_pc_29.v:57' bound to instance 'auto_pc' of component 'System_auto_pc_29' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:830]
+INFO: [Synth 8-638] synthesizing module 'System_auto_pc_29' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_29/synth/System_auto_pc_29.v:57]
+INFO: [Synth 8-256] done synthesizing module 'System_auto_pc_29' (61#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_29/synth/System_auto_pc_29.v:57]
 INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_WNEIF9' (62#1) [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:656]
 INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_16UK5X7' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:963]
 INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_16UK5X7' (63#1) [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:963]
 INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_156Q4UY' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:1145]
-INFO: [Synth 8-3491] module 'System_auto_pc_26' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_26/synth/System_auto_pc_26.v:57' bound to instance 'auto_pc' of component 'System_auto_pc_26' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:1386]
-INFO: [Synth 8-638] synthesizing module 'System_auto_pc_26' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_26/synth/System_auto_pc_26.v:57]
-INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-3491] module 'System_auto_pc_30' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_30/synth/System_auto_pc_30.v:57' bound to instance 'auto_pc' of component 'System_auto_pc_30' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:1386]
+INFO: [Synth 8-638] synthesizing module 'System_auto_pc_30' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_30/synth/System_auto_pc_30.v:57]
+INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
 	Parameter C_FAMILY bound to: zynq - type: string 
 	Parameter C_M_AXI_PROTOCOL bound to: 0 - type: integer 
 	Parameter C_S_AXI_PROTOCOL bound to: 1 - type: integer 
@@ -2277,8 +2273,8 @@ INFO: [Synth 8-638] synthesizing module 'axi_protocol_converter_v2_1_axi_protoco
 	Parameter P_SLVERR bound to: 2'b10 
 	Parameter P_PROTECTION bound to: 1 - type: integer 
 	Parameter P_CONVERSION bound to: 2 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0' (63#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
-INFO: [Synth 8-256] done synthesizing module 'System_auto_pc_26' (64#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_26/synth/System_auto_pc_26.v:57]
+INFO: [Synth 8-256] done synthesizing module 'axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0' (63#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v:62]
+INFO: [Synth 8-256] done synthesizing module 'System_auto_pc_30' (64#1) [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_30/synth/System_auto_pc_30.v:57]
 INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_156Q4UY' (65#1) [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:1145]
 INFO: [Synth 8-3491] module 'System_xbar_1' declared at 'c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/synth/System_xbar_1.v:57' bound to instance 'xbar' of component 'System_xbar_1' [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:2465]
 INFO: [Synth 8-638] synthesizing module 'System_xbar_1' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/synth/System_xbar_1.v:57]
@@ -2600,7 +2596,7 @@ WARNING: [Synth 8-3848] Net NLW_axi_bram_ctrl_0_bram_addra_UNCONNECTED in module
 INFO: [Synth 8-256] done synthesizing module 'System' (84#1) [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd:2681]
 INFO: [Synth 8-256] done synthesizing module 'System_wrapper' (85#1) [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System_wrapper.vhd:32]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:11:03 ; elapsed = 00:13:00 . Memory (MB): peak = 487.742 ; gain = 227.832
+Finished RTL Elaboration : Time (s): cpu = 00:08:25 ; elapsed = 00:10:23 . Memory (MB): peak = 491.555 ; gain = 231.906
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -2666,16 +2662,6 @@ Parsing XDC File [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.sr
 Finished Parsing XDC File [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1.xdc] for cell 'System_i/sw_8bit/U0'
 Parsing XDC File [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1_board.xdc] for cell 'System_i/sw_8bit/U0'
 Finished Parsing XDC File [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1_board.xdc] for cell 'System_i/sw_8bit/U0'
-Parsing XDC File [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc]
-WARNING: [Vivado 12-584] No ports matched 'btnr_tri_io'. [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc:5]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc:5]
-Finished Parsing XDC File [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/.Xil/System_wrapper_propImpl.xdc].
-Resolution: To avoid this message, exclude constraints listed in [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/.Xil/System_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc]
-Finished Parsing XDC File [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/.Xil/System_wrapper_propImpl.xdc].
-Resolution: To avoid this message, exclude constraints listed in [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/.Xil/System_wrapper_propImpl.xdc] from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab3 files/lab3_system.xdc]
 Finished Parsing XDC File [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab3 files/lab3_system.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab3 files/lab3_system.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/.Xil/System_wrapper_propImpl.xdc].
@@ -2702,30 +2688,30 @@ Start RTL Optimization
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 11).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 14).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 17).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 20).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 23).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 26).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 29).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 32).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 35).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 38).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 41).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 44).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 47).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 50).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 53).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 58).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 64).
-Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 74).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 7).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 10).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 13).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 16).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 19).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 22).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 25).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 28).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 31).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 34).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 37).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 40).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 43).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 46).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 49).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 54).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 60).
+Applied set_property DONT_TOUCH = true. (constraint file  C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/dont_touch.xdc, line 70).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:12:10 ; elapsed = 00:14:09 . Memory (MB): peak = 594.992 ; gain = 335.082
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:09:08 ; elapsed = 00:11:12 . Memory (MB): peak = 598.484 ; gain = 338.836
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:12:10 ; elapsed = 00:14:09 . Memory (MB): peak = 594.992 ; gain = 335.082
+Finished RTL Optimization : Time (s): cpu = 00:09:08 ; elapsed = 00:11:12 . Memory (MB): peak = 598.484 ; gain = 338.836
 ---------------------------------------------------------------------------------
 
 INFO: [Synth 8-802] inferred FSM for state register 'rlast_sm_cs_reg' in module 'rd_chnl'
@@ -2766,7 +2752,7 @@ Part Resources:
 DSPs: 220 (col length:60)
 BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:12:59 ; elapsed = 00:15:00 . Memory (MB): peak = 605.902 ; gain = 345.992
+Finished Loading Part and Timing Information : Time (s): cpu = 00:09:41 ; elapsed = 00:11:47 . Memory (MB): peak = 609.664 ; gain = 350.016
 ---------------------------------------------------------------------------------
 
 
@@ -2805,8 +2791,8 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input     62 Bit        Muxes := 6     
 	   2 Input     36 Bit        Muxes := 4     
-	   3 Input     32 Bit        Muxes := 6     
 	   2 Input     32 Bit        Muxes := 19    
+	   3 Input     32 Bit        Muxes := 6     
 	   2 Input     12 Bit        Muxes := 12    
 	   2 Input     11 Bit        Muxes := 5     
 	   2 Input     10 Bit        Muxes := 1     
@@ -2816,19 +2802,19 @@ Detailed RTL Component Info :
 	   2 Input      6 Bit        Muxes := 4     
 	   2 Input      5 Bit        Muxes := 17    
 	   2 Input      4 Bit        Muxes := 30    
-	   4 Input      3 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 2     
 	   2 Input      3 Bit        Muxes := 8     
 	   6 Input      3 Bit        Muxes := 1     
-	   5 Input      3 Bit        Muxes := 2     
+	   4 Input      3 Bit        Muxes := 2     
 	   3 Input      2 Bit        Muxes := 2     
-	   4 Input      2 Bit        Muxes := 13    
 	   2 Input      2 Bit        Muxes := 34    
+	   4 Input      2 Bit        Muxes := 13    
 	   3 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 18    
 	   6 Input      1 Bit        Muxes := 2     
 	   2 Input      1 Bit        Muxes := 217   
-	   5 Input      1 Bit        Muxes := 2     
 	   4 Input      1 Bit        Muxes := 24    
-	  10 Input      1 Bit        Muxes := 18    
+	   5 Input      1 Bit        Muxes := 2     
 
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -2887,14 +2873,14 @@ Detailed RTL Component Info :
 	   2 Input     32 Bit        Muxes := 1     
 	   2 Input     11 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 2     
-	   2 Input      6 Bit        Muxes := 3     
 	   5 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
 	   2 Input      4 Bit        Muxes := 4     
-	   2 Input      3 Bit        Muxes := 3     
 	   6 Input      3 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 28    
-	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 3     
 	  10 Input      1 Bit        Muxes := 18    
+	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 28    
 Module sng_port_arb 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -3181,15 +3167,15 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 1     
 Module axi_protocol_converter_v2_1_axi_protocol_converter 
 Detailed RTL Component Info : 
-Module System_auto_pc_23 
+Module System_auto_pc_27 
 Detailed RTL Component Info : 
 Module m00_couplers_imp_VG7ZLK 
 Detailed RTL Component Info : 
-Module System_auto_pc_24 
+Module System_auto_pc_28 
 Detailed RTL Component Info : 
 Module m01_couplers_imp_180AW1Y 
 Detailed RTL Component Info : 
-Module System_auto_pc_25 
+Module System_auto_pc_29 
 Detailed RTL Component Info : 
 Module m02_couplers_imp_WNEIF9 
 Detailed RTL Component Info : 
@@ -3197,7 +3183,7 @@ Module m03_couplers_imp_16UK5X7
 Detailed RTL Component Info : 
 Module axi_protocol_converter_v2_1_axi_protocol_converter__parameterized0 
 Detailed RTL Component Info : 
-Module System_auto_pc_26 
+Module System_auto_pc_30 
 Detailed RTL Component Info : 
 Module s00_couplers_imp_156Q4UY 
 Detailed RTL Component Info : 
@@ -3350,97 +3336,97 @@ INFO: [Synth 8-3332] Sequential element (\inst/led_ip_v1_0_S_AXI_inst/axi_awaddr
 INFO: [Synth 8-3332] Sequential element (\inst/led_ip_v1_0_S_AXI_inst/axi_awaddr_reg[0] ) is unused and will be removed from module System_led_ip_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/led_ip_v1_0_S_AXI_inst/axi_araddr_reg[1] ) is unused and will be removed from module System_led_ip_0_0.
 INFO: [Synth 8-3332] Sequential element (\inst/led_ip_v1_0_S_AXI_inst/axi_araddr_reg[0] ) is unused and will be removed from module System_led_ip_0_0.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[61] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[60] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[59] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[58] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[57] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[56] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[55] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[54] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[53] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[52] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[43] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[42] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[41] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[40] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[61] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[60] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[59] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[58] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[57] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[56] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[55] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[54] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[53] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[52] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/skid_buffer_reg[2] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/m_payload_i_reg[2] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[61] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[60] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[59] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[58] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[57] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[56] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[55] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[54] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[53] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[52] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[43] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[42] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[41] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[37] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[61] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[60] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[59] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[58] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[57] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[56] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[55] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[54] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[53] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[52] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/skid_buffer_reg[35] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/m_payload_i_reg[35] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/s_awid_r_reg[0] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/s_arid_r_reg[0] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/r_arid_r_reg[0] ) is unused and will be removed from module System_auto_pc_23.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[61] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[60] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[59] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[58] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[57] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[56] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[55] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[54] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[53] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[52] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[43] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[42] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[41] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[40] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[61] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[60] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[59] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[58] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[57] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[56] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[55] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[54] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[53] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[52] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/skid_buffer_reg[2] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/m_payload_i_reg[2] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[61] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[60] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[59] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[58] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[57] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[56] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[55] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[54] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[53] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[52] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[43] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[42] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[41] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[37] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[61] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[60] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[59] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[58] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[57] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[56] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[55] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[54] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[53] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[52] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/skid_buffer_reg[35] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/m_payload_i_reg[35] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/s_awid_r_reg[0] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/s_arid_r_reg[0] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/r_arid_r_reg[0] ) is unused and will be removed from module System_auto_pc_27.
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '62' to '52' bits. [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/m_payload_i_reg' and it is trimmed from '3' to '2' bits. [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg' and it is trimmed from '62' to '52' bits. [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/skid_buffer_reg[2] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[61] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[60] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[59] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[58] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[57] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[56] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[55] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[54] ) is unused and will be removed from module System_auto_pc_23.
-INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[53] ) is unused and will be removed from module System_auto_pc_23.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/skid_buffer_reg[2] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[61] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[60] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[59] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[58] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[57] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[56] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[55] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[54] ) is unused and will be removed from module System_auto_pc_27.
+INFO: [Synth 8-3332] Sequential element (\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[53] ) is unused and will be removed from module System_auto_pc_27.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg' and it is trimmed from '62' to '52' bits. [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/m_payload_i_reg' and it is trimmed from '3' to '2' bits. [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
@@ -3453,7 +3439,7 @@ WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_axilite.ge
 WARNING: [Synth 8-3936] Found unconnected internal register 'inst/gen_sasd.crossbar_sasd_0/reg_slice_r/m_payload_i_reg' and it is trimmed from '36' to '35' bits. [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axic_register_slice.v:121]
 INFO: [Synth 8-4471] merging register 'AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_reg' into 'bus2ip_reset_reg' [c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_gpio_0_0/axi_lite_ipif_v2_0/hdl/src/vhdl/slave_attachment.vhd:386]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:13:02 ; elapsed = 00:15:03 . Memory (MB): peak = 612.461 ; gain = 352.551
+Finished Cross Boundary Optimization : Time (s): cpu = 00:09:44 ; elapsed = 00:11:50 . Memory (MB): peak = 616.246 ; gain = 356.598
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -3467,7 +3453,7 @@ Finished RAM, DSP and Shift Register Reporting
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:13:11 ; elapsed = 00:15:14 . Memory (MB): peak = 633.762 ; gain = 373.852
+Finished Area Optimization : Time (s): cpu = 00:09:54 ; elapsed = 00:12:00 . Memory (MB): peak = 637.785 ; gain = 378.137
 ---------------------------------------------------------------------------------
 
 
@@ -3480,11 +3466,11 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 INFO: Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:13:17 ; elapsed = 00:15:20 . Memory (MB): peak = 788.754 ; gain = 528.844
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:09:59 ; elapsed = 00:12:06 . Memory (MB): peak = 792.613 ; gain = 532.965
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:13:19 ; elapsed = 00:15:22 . Memory (MB): peak = 796.387 ; gain = 536.477
+Finished Timing Optimization : Time (s): cpu = 00:10:01 ; elapsed = 00:12:08 . Memory (MB): peak = 800.508 ; gain = 540.859
 ---------------------------------------------------------------------------------
 
 
@@ -3492,7 +3478,7 @@ Finished Timing Optimization : Time (s): cpu = 00:13:19 ; elapsed = 00:15:22 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:13:29 ; elapsed = 00:15:33 . Memory (MB): peak = 807.457 ; gain = 547.547
+Finished Technology Mapping : Time (s): cpu = 00:10:12 ; elapsed = 00:12:19 . Memory (MB): peak = 811.535 ; gain = 551.887
 ---------------------------------------------------------------------------------
 
 
@@ -3511,9 +3497,9 @@ Finished Flattening Before IO Insertion
 ---------------------------------------------------------------------------------
 Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-design System_auto_pc_23 has 4 max_fanout violations cannot be satisfied
-design System_auto_pc_24 has 4 max_fanout violations cannot be satisfied
-design System_auto_pc_25 has 4 max_fanout violations cannot be satisfied
+design System_auto_pc_27 has 4 max_fanout violations cannot be satisfied
+design System_auto_pc_28 has 4 max_fanout violations cannot be satisfied
+design System_auto_pc_29 has 4 max_fanout violations cannot be satisfied
 
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
@@ -3539,7 +3525,7 @@ WARNING: [Synth 8-3295] tying undriven pin axi_bram_ctrl_0_bram:addra[15] to con
 WARNING: [Synth 8-3295] tying undriven pin axi_bram_ctrl_0_bram:addra[14] to constant 0
 WARNING: [Synth 8-3295] tying undriven pin axi_bram_ctrl_0_bram:addra[13] to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:13:34 ; elapsed = 00:15:38 . Memory (MB): peak = 807.457 ; gain = 547.547
+Finished IO Insertion : Time (s): cpu = 00:10:16 ; elapsed = 00:12:25 . Memory (MB): peak = 811.535 ; gain = 551.887
 ---------------------------------------------------------------------------------
 
 
@@ -3554,7 +3540,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:13:34 ; elapsed = 00:15:38 . Memory (MB): peak = 807.457 ; gain = 547.547
+Finished Renaming Generated Instances : Time (s): cpu = 00:10:16 ; elapsed = 00:12:25 . Memory (MB): peak = 811.535 ; gain = 551.887
 ---------------------------------------------------------------------------------
 
 
@@ -3562,7 +3548,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:13:34 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:13:35 ; elapsed = 00:15:39 . Memory (MB): peak = 807.457 ; gain = 547.547
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:10:18 ; elapsed = 00:12:27 . Memory (MB): peak = 811.535 ; gain = 551.887
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -3637,10 +3623,10 @@ Report Instance Areas:
 |8     |    processing_system7_0            |System_processing_system7_0_0                              |   221|
 |9     |      U0                            |processing_system7_v5_3_processing_system7__parameterized0 |   221|
 |10    |    processing_system7_0_axi_periph |System_processing_system7_0_axi_periph_0                   |  3704|
-|11    |      \m00_couplers/auto_pc         |System_auto_pc_23                                          |  1073|
-|12    |      \m01_couplers/auto_pc         |System_auto_pc_24                                          |  1073|
-|13    |      \m02_couplers/auto_pc         |System_auto_pc_25                                          |  1073|
-|14    |      \s00_couplers/auto_pc         |System_auto_pc_26                                          |     0|
+|11    |      \m00_couplers/auto_pc         |System_auto_pc_27                                          |  1073|
+|12    |      \m01_couplers/auto_pc         |System_auto_pc_28                                          |  1073|
+|13    |      \m02_couplers/auto_pc         |System_auto_pc_29                                          |  1073|
+|14    |      \s00_couplers/auto_pc         |System_auto_pc_30                                          |     0|
 |15    |      xbar                          |System_xbar_1                                              |   485|
 |16    |    rst_processing_system7_0_100M   |System_rst_processing_system7_0_100M_0                     |    65|
 |17    |      U0                            |proc_sys_reset__parameterized0                             |    65|
@@ -3648,11 +3634,11 @@ Report Instance Areas:
 |19    |      U0                            |axi_gpio__parameterized2                                   |   145|
 +------+------------------------------------+-----------------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:13:36 ; elapsed = 00:15:40 . Memory (MB): peak = 807.457 ; gain = 547.547
+Finished Writing Synthesis Report : Time (s): cpu = 00:10:18 ; elapsed = 00:12:28 . Memory (MB): peak = 811.535 ; gain = 551.887
 ---------------------------------------------------------------------------------
 
 Synthesis finished with 0 errors, 0 critical warnings and 52 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:13:36 ; elapsed = 00:15:40 . Memory (MB): peak = 807.457 ; gain = 547.547
+Synthesis Optimization Complete : Time (s): cpu = 00:10:18 ; elapsed = 00:12:28 . Memory (MB): peak = 811.535 ; gain = 551.887
 INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
@@ -3667,11 +3653,11 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   SRL16 => SRL16E: 1 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-426 Infos, 193 Warnings, 1 Critical Warnings and 0 Errors encountered.
+424 Infos, 192 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:13:52 ; elapsed = 00:15:54 . Memory (MB): peak = 994.820 ; gain = 658.844
+synth_design: Time (s): cpu = 00:10:42 ; elapsed = 00:12:52 . Memory (MB): peak = 998.879 ; gain = 662.555
 # write_checkpoint System_wrapper.dcp
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 # report_utilization -file System_wrapper_utilization_synth.rpt -pb System_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 994.820 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Apr 10 10:32:18 2014...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 998.879 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 10 11:10:55 2014...

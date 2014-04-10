@@ -25,21 +25,15 @@ set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/D
 set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/System_xbar_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_bram_ctrl_0_0/System_axi_bram_ctrl_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_bram_ctrl_0_bram_0/System_axi_bram_ctrl_0_bram_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/System_auto_pc_23_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_24/System_auto_pc_24_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_25/System_auto_pc_25_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_26/System_auto_pc_26_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_27/System_auto_pc_27_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_28/System_auto_pc_28_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_29/System_auto_pc_29_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_30/System_auto_pc_30_ooc.xdc]
 set_property used_in_implementation false [get_files -all C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/System_ooc.xdc]
 set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property is_locked true [get_files C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/System.bd]
 
 read_vhdl C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System_wrapper.vhd
-read_xdc C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc
-set_property used_in_implementation false [get_files C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc]
-
-read_xdc C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc
-set_property used_in_implementation false [get_files C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc]
-
 read_xdc {{C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab3 files/lab3_system.xdc}}
 set_property used_in_implementation false [get_files {{C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab3 files/lab3_system.xdc}}]
 

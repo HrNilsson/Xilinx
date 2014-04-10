@@ -39,10 +39,10 @@ s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 add_files: 2default:default2
-00:00:192default:default2
-00:00:212default:default2
-335.9772default:default2
-31.1882default:defaultZ17-268
+00:00:132default:default2
+00:00:152default:default2
+336.3242default:default2
+30.8522default:defaultZ17-268
 r
 Command: %s
 53*	vivadotcl2J
@@ -64,7 +64,7 @@ Starting synthesis...
 xc7z0202default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:07:09 ; elapsed = 00:08:41 . Memory (MB): peak = 382.051 ; gain = 122.141
+xStarting RTL Elaboration : Time (s): cpu = 00:05:48 ; elapsed = 00:07:14 . Memory (MB): peak = 386.375 ; gain = 126.727
 2default:default
 ı
 synthesizing module '%s'638*oasys2"
@@ -6191,22 +6191,22 @@ cC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/S
 642default:default8@Z8-638
 ô
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-System_auto_pc_232default:default2ò
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/synth/System_auto_pc_23.v2default:default2
+System_auto_pc_272default:default2ò
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_27/synth/System_auto_pc_27.v2default:default2
 572default:default2
 auto_pc2default:default2%
-System_auto_pc_232default:default2y
+System_auto_pc_272default:default2y
 cC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd2default:default2
 2362default:default8@Z8-3491
 ë
 synthesizing module '%s'638*oasys2%
-System_auto_pc_232default:default2ö
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/synth/System_auto_pc_23.v2default:default2
+System_auto_pc_272default:default2ö
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_27/synth/System_auto_pc_27.v2default:default2
 572default:default8@Z8-638
-Ù
+ı
 synthesizing module '%s'638*oasys2F
-2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2‹
-≈c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2›
+∆c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -6308,10 +6308,10 @@ X
 %s*synth2I
 5	Parameter P_CONVERSION bound to: 2 - type: integer 
 2default:default
-Œ
+œ
 synthesizing module '%s'638*oasys23
-axi_protocol_converter_v2_1_b2s2default:default2…
-≤c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+axi_protocol_converter_v2_1_b2s2default:default2 
+≥c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-638
 \
 %s*synth2M
@@ -7565,10 +7565,10 @@ a
 12default:default2Õ
 ∂c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-„
+‰
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_aw_channel2default:default2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-638
 V
 %s*synth2G
@@ -7578,10 +7578,10 @@ V
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-Ï
+Ì
 synthesizing module '%s'638*oasys2B
-.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2ÿ
-¡c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+.axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2Ÿ
+¬c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-638
 ]
 %s*synth2N
@@ -7599,10 +7599,10 @@ N
 %s*synth2?
 +	Parameter P_AXBURST_WRAP bound to: 2'b10 
 2default:default
-‡
+·
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2“
-ªc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2”
+ºc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -7612,17 +7612,17 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-ú
+ù
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_incr_cmd2default:default2
 452default:default2
-12default:default2“
-ªc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
+12default:default2”
+ºc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_incr_cmd.v2default:default2
 112default:default8@Z8-256
-‡
+·
 synthesizing module '%s'638*oasys2<
-(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2“
-ªc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+(axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2”
+ºc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-638
 ]
 %s*synth2N
@@ -7632,24 +7632,24 @@ _
 %s*synth2P
 <	Parameter L_AXI_ADDR_LOW_BIT bound to: 12 - type: integer 
 2default:default
-ú
+ù
 %done synthesizing module '%s' (%s#%s)256*oasys2<
 (axi_protocol_converter_v2_1_b2s_wrap_cmd2default:default2
 462default:default2
-12default:default2“
-ªc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
+12default:default2”
+ºc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wrap_cmd.v2default:default2
 112default:default8@Z8-256
-®
+©
 %done synthesizing module '%s' (%s#%s)256*oasys2B
 .axi_protocol_converter_v2_1_b2s_cmd_translator2default:default2
 472default:default2
-12default:default2ÿ
-¡c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
+12default:default2Ÿ
+¬c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_cmd_translator.v2default:default2
 172default:default8@Z8-256
-‰
+Â
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -7667,28 +7667,28 @@ L
 %s*synth2=
 )	Parameter SM_DONE_WAIT bound to: 2'b11 
 2default:default
-ß
-default block is never used226*oasys2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+®
+default block is never used226*oasys2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 642default:default8@Z8-226
-†
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_wr_cmd_fsm2default:default2
 482default:default2
-12default:default2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
+12default:default2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_wr_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-ü
+†
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_aw_channel2default:default2
 492default:default2
-12default:default2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
+12default:default2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_aw_channel.v2default:default2
 52default:default8@Z8-256
-‚
+„
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_b_channel2default:default2”
-ºc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_b_channel2default:default2‘
+Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-638
 V
 %s*synth2G
@@ -7734,10 +7734,10 @@ U
 %s*synth2F
 2	Parameter P_RAWIDTH bound to: 2 - type: integer 
 2default:default
-Â
+Ê
 synthesizing module '%s'638*oasys2?
-+axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2’
-æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
++axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2÷
+øc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -7767,17 +7767,17 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-°
+¢
 %done synthesizing module '%s' (%s#%s)256*oasys2?
 +axi_protocol_converter_v2_1_b2s_simple_fifo2default:default2
 502default:default2
-12default:default2’
-æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2÷
+øc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-ı
+ˆ
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2’
-æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2÷
+øc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -7807,24 +7807,24 @@ J
 %s*synth2;
 '	Parameter C_FULL_PRE bound to: 2'b01 
 2default:default
-±
+≤
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized02default:default2
 502default:default2
-12default:default2’
-æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2÷
+øc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-û
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_b_channel2default:default2
 512default:default2
-12default:default2”
-ºc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
+12default:default2‘
+Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_b_channel.v2default:default2
 102default:default8@Z8-256
-„
+‰
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+*axi_protocol_converter_v2_1_b2s_ar_channel2default:default2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-638
 V
 %s*synth2G
@@ -7834,10 +7834,10 @@ V
 %s*synth2N
 :	Parameter C_AXI_ADDR_WIDTH bound to: 32 - type: integer 
 2default:default
-‰
+Â
 synthesizing module '%s'638*oasys2>
-*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+*axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-638
 G
 %s*synth28
@@ -7855,28 +7855,28 @@ G
 %s*synth28
 $	Parameter SM_DONE bound to: 2'b11 
 2default:default
-ß
-default block is never used226*oasys2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+®
+default block is never used226*oasys2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 722default:default8@Z8-226
-†
+°
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_rd_cmd_fsm2default:default2
 522default:default2
-12default:default2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
+12default:default2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_rd_cmd_fsm.v2default:default2
 102default:default8@Z8-256
-ü
+†
 %done synthesizing module '%s' (%s#%s)256*oasys2>
 *axi_protocol_converter_v2_1_b2s_ar_channel2default:default2
 532default:default2
-12default:default2‘
-Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
+12default:default2’
+æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_ar_channel.v2default:default2
 52default:default8@Z8-256
-‚
+„
 synthesizing module '%s'638*oasys2=
-)axi_protocol_converter_v2_1_b2s_r_channel2default:default2”
-ºc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+)axi_protocol_converter_v2_1_b2s_r_channel2default:default2‘
+Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-638
 V
 %s*synth2G
@@ -7910,10 +7910,10 @@ V
 %s*synth2G
 3	Parameter P_D_AWIDTH bound to: 5 - type: integer 
 2default:default
-ı
+ˆ
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2’
-æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2÷
+øc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 T
 %s*synth2E
@@ -7943,17 +7943,17 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-±
+≤
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized12default:default2
 532default:default2
-12default:default2’
-æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2÷
+øc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-ı
+ˆ
 synthesizing module '%s'638*oasys2O
-;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2’
-æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2÷
+øc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-638
 S
 %s*synth2D
@@ -7983,19 +7983,19 @@ M
 %s*synth2>
 *	Parameter C_FULL_PRE bound to: 5'b11010 
 2default:default
-±
+≤
 %done synthesizing module '%s' (%s#%s)256*oasys2O
 ;axi_protocol_converter_v2_1_b2s_simple_fifo__parameterized22default:default2
 532default:default2
-12default:default2’
-æc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
+12default:default2÷
+øc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_simple_fifo.v2default:default2
 92default:default8@Z8-256
-û
+ü
 %done synthesizing module '%s' (%s#%s)256*oasys2=
 )axi_protocol_converter_v2_1_b2s_r_channel2default:default2
 542default:default2
-12default:default2”
-ºc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
+12default:default2‘
+Ωc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s_r_channel.v2default:default2
 212default:default8@Z8-256
 Ì
 synthesizing module '%s'638*oasys2N
@@ -9225,26 +9225,26 @@ a
 12default:default2Õ
 ∂c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_xbar_1/axi_register_slice_v2_1/hdl/verilog/axi_register_slice_v2_1_axi_register_slice.v2default:default2
 642default:default8@Z8-256
-ä
+ã
 %done synthesizing module '%s' (%s#%s)256*oasys23
 axi_protocol_converter_v2_1_b2s2default:default2
 552default:default2
-12default:default2…
-≤c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
+12default:default2 
+≥c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_b2s.v2default:default2
 392default:default8@Z8-256
-∞
+±
 %done synthesizing module '%s' (%s#%s)256*oasys2F
 2axi_protocol_converter_v2_1_axi_protocol_converter2default:default2
 562default:default2
-12default:default2‹
-≈c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+12default:default2›
+∆c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2%
-System_auto_pc_232default:default2
+System_auto_pc_272default:default2
 572default:default2
 12default:default2ö
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/synth/System_auto_pc_23.v2default:default2
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_27/synth/System_auto_pc_27.v2default:default2
 572default:default8@Z8-256
 ±
 %done synthesizing module '%s' (%s#%s)256*oasys2+
@@ -9260,24 +9260,24 @@ cC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/S
 3592default:default8@Z8-638
 ô
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-System_auto_pc_242default:default2ò
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_24/synth/System_auto_pc_24.v2default:default2
+System_auto_pc_282default:default2ò
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_28/synth/System_auto_pc_28.v2default:default2
 572default:default2
 auto_pc2default:default2%
-System_auto_pc_242default:default2y
+System_auto_pc_282default:default2y
 cC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd2default:default2
 5312default:default8@Z8-3491
 ë
 synthesizing module '%s'638*oasys2%
-System_auto_pc_242default:default2ö
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_24/synth/System_auto_pc_24.v2default:default2
+System_auto_pc_282default:default2ö
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_28/synth/System_auto_pc_28.v2default:default2
 572default:default8@Z8-638
 Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2%
-System_auto_pc_242default:default2
+System_auto_pc_282default:default2
 592default:default2
 12default:default2ö
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_24/synth/System_auto_pc_24.v2default:default2
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_28/synth/System_auto_pc_28.v2default:default2
 572default:default8@Z8-256
 ≥
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -9293,24 +9293,24 @@ cC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/S
 6562default:default8@Z8-638
 ô
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-System_auto_pc_252default:default2ò
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_25/synth/System_auto_pc_25.v2default:default2
+System_auto_pc_292default:default2ò
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_29/synth/System_auto_pc_29.v2default:default2
 572default:default2
 auto_pc2default:default2%
-System_auto_pc_252default:default2y
+System_auto_pc_292default:default2y
 cC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd2default:default2
 8302default:default8@Z8-3491
 ë
 synthesizing module '%s'638*oasys2%
-System_auto_pc_252default:default2ö
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_25/synth/System_auto_pc_25.v2default:default2
+System_auto_pc_292default:default2ö
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_29/synth/System_auto_pc_29.v2default:default2
 572default:default8@Z8-638
 Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2%
-System_auto_pc_252default:default2
+System_auto_pc_292default:default2
 612default:default2
 12default:default2ö
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_25/synth/System_auto_pc_25.v2default:default2
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_29/synth/System_auto_pc_29.v2default:default2
 572default:default8@Z8-256
 ≤
 %done synthesizing module '%s' (%s#%s)256*oasys2+
@@ -9338,22 +9338,22 @@ cC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/S
 11452default:default8@Z8-638
 ö
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2%
-System_auto_pc_262default:default2ò
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_26/synth/System_auto_pc_26.v2default:default2
+System_auto_pc_302default:default2ò
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_30/synth/System_auto_pc_30.v2default:default2
 572default:default2
 auto_pc2default:default2%
-System_auto_pc_262default:default2y
+System_auto_pc_302default:default2y
 cC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/hdl/System.vhd2default:default2
 13862default:default8@Z8-3491
 ë
 synthesizing module '%s'638*oasys2%
-System_auto_pc_262default:default2ö
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_26/synth/System_auto_pc_26.v2default:default2
+System_auto_pc_302default:default2ö
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_30/synth/System_auto_pc_30.v2default:default2
 572default:default8@Z8-638
-Ñ
+Ö
 synthesizing module '%s'638*oasys2V
-Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2‹
-≈c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2›
+∆c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-638
 V
 %s*synth2G
@@ -9455,19 +9455,19 @@ X
 %s*synth2I
 5	Parameter P_CONVERSION bound to: 2 - type: integer 
 2default:default
-¿
+¡
 %done synthesizing module '%s' (%s#%s)256*oasys2V
 Baxi_protocol_converter_v2_1_axi_protocol_converter__parameterized02default:default2
 632default:default2
-12default:default2‹
-≈c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_5/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
+12default:default2›
+∆c:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_23/axi_protocol_converter_v2_1/hdl/verilog/axi_protocol_converter_v2_1_axi_protocol_converter.v2default:default2
 622default:default8@Z8-256
 Õ
 %done synthesizing module '%s' (%s#%s)256*oasys2%
-System_auto_pc_262default:default2
+System_auto_pc_302default:default2
 642default:default2
 12default:default2ö
-Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_26/synth/System_auto_pc_26.v2default:default2
+Éc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_auto_pc_30/synth/System_auto_pc_30.v2default:default2
 572default:default8@Z8-256
 ¥
 %done synthesizing module '%s' (%s#%s)256*oasys2,
@@ -10907,7 +10907,7 @@ kC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/S
 322default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:11:03 ; elapsed = 00:13:00 . Memory (MB): peak = 487.742 ; gain = 227.832
+xFinished RTL Elaboration : Time (s): cpu = 00:08:25 ; elapsed = 00:10:23 . Memory (MB): peak = 491.555 ; gain = 231.906
 2default:default
 ;
 %s*synth2,
@@ -11234,44 +11234,6 @@ $Parsing XDC File [%s] for cell '%s'
 847*designutils2û
 âc:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/sources_1/bd/System/ip/System_axi_gpio_0_1/System_axi_gpio_0_1_board.xdc2default:default2'
 System_i/sw_8bit/U02default:defaultZ20-847
-™
-Parsing XDC File [%s]
-179*designutils2t
-`C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc2default:defaultZ20-179
-È
-No ports matched '%s'.
-584*	planAhead2
-btnr_tri_io2default:default2v
-`C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc2default:default2
-52default:default8@Z12-584
-
-"'%s' expects at least one object.
-55*common2 
-set_property2default:default2v
-`C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc2default:default2
-52default:default8@Z17-55
-≥
-Finished Parsing XDC File [%s]
-178*designutils2t
-`C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc2default:defaultZ20-178
-Ë
-ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2t
-`C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/imports/lab1/lab1.xdc2default:default2}
-iC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/.Xil/System_wrapper_propImpl.xdc2default:defaultZ1-236
-´
-Parsing XDC File [%s]
-179*designutils2u
-aC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc2default:defaultZ20-179
-¥
-Finished Parsing XDC File [%s]
-178*designutils2u
-aC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc2default:defaultZ20-178
-È
-ŸImplementation specific constraints were found while reading constraint file [%s]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [%s].
-233*project2u
-aC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.srcs/constrs_1/new/System_wrapper.xdc2default:default2}
-iC:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/.Xil/System_wrapper_propImpl.xdc2default:defaultZ1-236
 ∏
 Parsing XDC File [%s]
 179*designutils2Å
@@ -11331,11 +11293,11 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 2default:defaultZ1-111
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:12:10 ; elapsed = 00:14:09 . Memory (MB): peak = 594.992 ; gain = 335.082
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:09:08 ; elapsed = 00:11:12 . Memory (MB): peak = 598.484 ; gain = 338.836
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:12:10 ; elapsed = 00:14:09 . Memory (MB): peak = 594.992 ; gain = 335.082
+yFinished RTL Optimization : Time (s): cpu = 00:09:08 ; elapsed = 00:11:12 . Memory (MB): peak = 598.484 ; gain = 338.836
 2default:default
 å
 3inferred FSM for state register '%s' in module '%s'802*oasys2#
@@ -11501,7 +11463,7 @@ BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
 2default:default
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:12:59 ; elapsed = 00:15:00 . Memory (MB): peak = 605.902 ; gain = 345.992
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:09:41 ; elapsed = 00:11:47 . Memory (MB): peak = 609.664 ; gain = 350.016
 2default:default
 B
 %s*synth23
@@ -11633,11 +11595,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   3 Input     32 Bit        Muxes := 6     
+.	   2 Input     32 Bit        Muxes := 19    
 2default:default
 Q
 %s*synth2B
-.	   2 Input     32 Bit        Muxes := 19    
+.	   3 Input     32 Bit        Muxes := 6     
 2default:default
 Q
 %s*synth2B
@@ -11677,7 +11639,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      3 Bit        Muxes := 2     
+.	   5 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -11689,7 +11651,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      3 Bit        Muxes := 2     
+.	   4 Input      3 Bit        Muxes := 2     
 2default:default
 Q
 %s*synth2B
@@ -11697,15 +11659,19 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      2 Bit        Muxes := 13    
-2default:default
-Q
-%s*synth2B
 .	   2 Input      2 Bit        Muxes := 34    
 2default:default
 Q
 %s*synth2B
+.	   4 Input      2 Bit        Muxes := 13    
+2default:default
+Q
+%s*synth2B
 .	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 18    
 2default:default
 Q
 %s*synth2B
@@ -11717,15 +11683,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   5 Input      1 Bit        Muxes := 2     
-2default:default
-Q
-%s*synth2B
 .	   4 Input      1 Bit        Muxes := 24    
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit        Muxes := 18    
+.	   5 Input      1 Bit        Muxes := 2     
 2default:default
 F
 %s*synth27
@@ -11929,11 +11891,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      6 Bit        Muxes := 3     
+.	   5 Input      6 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   5 Input      6 Bit        Muxes := 1     
+.	   2 Input      6 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -11941,15 +11903,15 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      3 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
 .	   6 Input      3 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   2 Input      1 Bit        Muxes := 28    
+.	   2 Input      3 Bit        Muxes := 3     
+2default:default
+Q
+%s*synth2B
+.	  10 Input      1 Bit        Muxes := 18    
 2default:default
 Q
 %s*synth2B
@@ -11957,7 +11919,7 @@ Q
 2default:default
 Q
 %s*synth2B
-.	  10 Input      1 Bit        Muxes := 18    
+.	   2 Input      1 Bit        Muxes := 28    
 2default:default
 8
 %s*synth2)
@@ -13105,7 +13067,7 @@ B
 2default:default
 =
 %s*synth2.
-Module System_auto_pc_23 
+Module System_auto_pc_27 
 2default:default
 B
 %s*synth23
@@ -13121,7 +13083,7 @@ B
 2default:default
 =
 %s*synth2.
-Module System_auto_pc_24 
+Module System_auto_pc_28 
 2default:default
 B
 %s*synth23
@@ -13137,7 +13099,7 @@ B
 2default:default
 =
 %s*synth2.
-Module System_auto_pc_25 
+Module System_auto_pc_29 
 2default:default
 B
 %s*synth23
@@ -13169,7 +13131,7 @@ B
 2default:default
 =
 %s*synth2.
-Module System_auto_pc_26 
+Module System_auto_pc_30 
 2default:default
 B
 %s*synth23
@@ -13752,271 +13714,271 @@ ESequential element (%s) is unused and will be removed from module %s.3332*
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[61] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[60] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[59] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[58] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[57] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[56] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[55] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[54] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[53] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[52] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[43] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[42] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[41] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[40] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[37] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[61] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[60] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[59] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[58] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[57] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[56] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[55] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[54] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[53] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[52] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 Á
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2`
 L\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/skid_buffer_reg[2] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 Á
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2`
 L\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/m_payload_i_reg[2] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[61] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[60] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[59] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[58] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[57] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[56] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[55] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[54] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[53] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[52] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[43] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[42] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[41] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[40] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/skid_buffer_reg[37] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[61] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[60] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[59] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[58] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[57] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[56] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[55] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[54] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[53] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[52] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2a
 M\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/skid_buffer_reg[35] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 Ë
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2a
 M\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/m_payload_i_reg[35] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 Ê
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2_
 K\inst/gen_axilite.gen_b2s_conv.axilite_b2s/WR.aw_channel_0/s_awid_r_reg[0] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 Ê
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2_
 K\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.ar_channel_0/s_arid_r_reg[0] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 Â
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2^
 J\inst/gen_axilite.gen_b2s_conv.axilite_b2s/RD.r_channel_0/r_arid_r_reg[0] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bits.3455*oasys2\
 Hinst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg2default:default2
@@ -14048,83 +14010,83 @@ Ginst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/r_pipe/m_payload_i_reg2defaul
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[43] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[42] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[41] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[40] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/m_payload_i_reg[37] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 Á
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2`
 L\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/b_pipe/skid_buffer_reg[2] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[43] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[42] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[41] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[40] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/ar_pipe/m_payload_i_reg[37] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[61] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[60] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[59] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[58] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[57] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[56] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[55] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[54] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 È
 ESequential element (%s) is unused and will be removed from module %s.3332*oasys2b
 N\inst/gen_axilite.gen_b2s_conv.axilite_b2s/SI_REG/aw_pipe/skid_buffer_reg[53] 2default:default2%
-System_auto_pc_232default:defaultZ8-3332
+System_auto_pc_272default:defaultZ8-3332
 ‘
 ÅMessage '%s' appears more than %s times and has been disabled. User can change this message limit to see more message instances.
 14*common2 
@@ -14201,7 +14163,7 @@ RFound unconnected internal register '%s' and it is trimmed from '%s' to '%s' bi
 3862default:default8@Z8-4471
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:13:02 ; elapsed = 00:15:03 . Memory (MB): peak = 612.461 ; gain = 352.551
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:09:44 ; elapsed = 00:11:50 . Memory (MB): peak = 616.246 ; gain = 356.598
 2default:default
 ¢
 %s*synth2í
@@ -14223,7 +14185,7 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:13:11 ; elapsed = 00:15:14 . Memory (MB): peak = 633.762 ; gain = 373.852
+zFinished Area Optimization : Time (s): cpu = 00:09:54 ; elapsed = 00:12:00 . Memory (MB): peak = 637.785 ; gain = 378.137
 2default:default
 {
 %s*synth2l
@@ -14231,27 +14193,27 @@ XINFO: Moved 1 constraints on hierarchical pins to their respective driving/load
 2default:default
 ≠
 %s*synth2ù
-àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:13:17 ; elapsed = 00:15:20 . Memory (MB): peak = 788.754 ; gain = 528.844
+àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:09:59 ; elapsed = 00:12:06 . Memory (MB): peak = 792.613 ; gain = 532.965
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:13:19 ; elapsed = 00:15:22 . Memory (MB): peak = 796.387 ; gain = 536.477
+|Finished Timing Optimization : Time (s): cpu = 00:10:01 ; elapsed = 00:12:08 . Memory (MB): peak = 800.508 ; gain = 540.859
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:13:29 ; elapsed = 00:15:33 . Memory (MB): peak = 807.457 ; gain = 547.547
+{Finished Technology Mapping : Time (s): cpu = 00:10:12 ; elapsed = 00:12:19 . Memory (MB): peak = 811.535 ; gain = 551.887
 2default:default
 l
 %s*synth2]
-Idesign System_auto_pc_23 has 4 max_fanout violations cannot be satisfied
+Idesign System_auto_pc_27 has 4 max_fanout violations cannot be satisfied
 2default:default
 l
 %s*synth2]
-Idesign System_auto_pc_24 has 4 max_fanout violations cannot be satisfied
+Idesign System_auto_pc_28 has 4 max_fanout violations cannot be satisfied
 2default:default
 l
 %s*synth2]
-Idesign System_auto_pc_25 has 4 max_fanout violations cannot be satisfied
+Idesign System_auto_pc_29 has 4 max_fanout violations cannot be satisfied
 2default:default
 D
 %s*synth25
@@ -14354,7 +14316,7 @@ D
 	addra[13]2default:defaultZ8-3295
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:13:34 ; elapsed = 00:15:38 . Memory (MB): peak = 807.457 ; gain = 547.547
+uFinished IO Insertion : Time (s): cpu = 00:10:16 ; elapsed = 00:12:25 . Memory (MB): peak = 811.535 ; gain = 551.887
 2default:default
 ;
 %s*synth2,
@@ -14383,11 +14345,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:13:34 ; elapsed = 00:15:38 . Memory (MB): peak = 807.457 ; gain = 547.547
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:10:16 ; elapsed = 00:12:25 . Memory (MB): peak = 811.535 ; gain = 551.887
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:13:35 ; elapsed = 00:15:39 . Memory (MB): peak = 807.457 ; gain = 547.547
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:10:18 ; elapsed = 00:12:27 . Memory (MB): peak = 811.535 ; gain = 551.887
 2default:default
 ¢
 %s*synth2í
@@ -14642,19 +14604,19 @@ q|10    |    processing_system7_0_axi_periph |System_processing_system7_0_axi_pe
 2default:default
 ï
 %s*synth2Ö
-q|11    |      \m00_couplers/auto_pc         |System_auto_pc_23                                          |  1073|
+q|11    |      \m00_couplers/auto_pc         |System_auto_pc_27                                          |  1073|
 2default:default
 ï
 %s*synth2Ö
-q|12    |      \m01_couplers/auto_pc         |System_auto_pc_24                                          |  1073|
+q|12    |      \m01_couplers/auto_pc         |System_auto_pc_28                                          |  1073|
 2default:default
 ï
 %s*synth2Ö
-q|13    |      \m02_couplers/auto_pc         |System_auto_pc_25                                          |  1073|
+q|13    |      \m02_couplers/auto_pc         |System_auto_pc_29                                          |  1073|
 2default:default
 ï
 %s*synth2Ö
-q|14    |      \s00_couplers/auto_pc         |System_auto_pc_26                                          |     0|
+q|14    |      \s00_couplers/auto_pc         |System_auto_pc_30                                          |     0|
 2default:default
 ï
 %s*synth2Ö
@@ -14682,7 +14644,7 @@ q+------+------------------------------------+----------------------------------
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:13:36 ; elapsed = 00:15:40 . Memory (MB): peak = 807.457 ; gain = 547.547
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:10:18 ; elapsed = 00:12:28 . Memory (MB): peak = 811.535 ; gain = 551.887
 2default:default
 j
 %s*synth2[
@@ -14690,7 +14652,7 @@ GSynthesis finished with 0 errors, 0 critical warnings and 52 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:13:36 ; elapsed = 00:15:40 . Memory (MB): peak = 807.457 ; gain = 547.547
+Synthesis Optimization Complete : Time (s): cpu = 00:10:18 ; elapsed = 00:12:28 . Memory (MB): peak = 811.535 ; gain = 551.887
 2default:default
 ]
 -Analyzing %s Unisim elements for replacement
@@ -14744,9 +14706,9 @@ L
 ¿
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
-4262default:default2
-1932default:default2
-12default:default2
+4242default:default2
+1922default:default2
+02default:default2
 02default:defaultZ4-41
 U
 %s completed successfully
@@ -14756,18 +14718,18 @@ U
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2"
 synth_design: 2default:default2
-00:13:522default:default2
-00:15:542default:default2
-994.8202default:default2
-658.8442default:defaultZ17-268
+00:10:422default:default2
+00:12:522default:default2
+998.8792default:default2
+662.5552default:defaultZ17-268
 <
 %Done setting XDC timing constraints.
 35*timingZ38-35
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 994.820 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.129 . Memory (MB): peak = 998.879 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Thu Apr 10 10:32:18 20142default:defaultZ17-206
+Thu Apr 10 11:10:55 20142default:defaultZ17-206

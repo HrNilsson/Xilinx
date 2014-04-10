@@ -53,9 +53,9 @@ architecture STRUCTURE of System_wrapper is
     FIXED_IO_ps_srstb : inout STD_LOGIC;
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
-    LED : out STD_LOGIC_VECTOR ( 7 downto 0 );
+    sws_8bits_tri_i : in STD_LOGIC_VECTOR ( 7 downto 0 );
     btns_5bits_tri_i : in STD_LOGIC_VECTOR ( 4 downto 0 );
-    sws_8bits_tri_i : in STD_LOGIC_VECTOR ( 7 downto 0 )
+    LED : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   end component System;
 begin
