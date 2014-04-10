@@ -176,10 +176,10 @@ inout
 <B>MIO 1</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-GPIO
+Quad SPI Flash
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-gpio[1]
+qspi0_ss_b
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
 LVCMOS 3.3V
@@ -199,10 +199,10 @@ out
 <B>MIO 2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-GPIO
+Quad SPI Flash
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-gpio[2]
+qspi0_io[0]
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
 LVCMOS 3.3V
@@ -222,10 +222,10 @@ inout
 <B>MIO 3</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-GPIO
+Quad SPI Flash
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-gpio[3]
+qspi0_io[1]
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
 LVCMOS 3.3V
@@ -245,10 +245,10 @@ inout
 <B>MIO 4</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-GPIO
+Quad SPI Flash
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-gpio[4]
+qspi0_io[2]
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
 LVCMOS 3.3V
@@ -268,10 +268,10 @@ inout
 <B>MIO 5</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-GPIO
+Quad SPI Flash
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-gpio[5]
+qspi0_io[3]
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
 LVCMOS 3.3V
@@ -291,10 +291,10 @@ inout
 <B>MIO 6</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-GPIO
+Quad SPI Flash
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-gpio[6]
+qspi0_sclk
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
 LVCMOS 3.3V
@@ -306,7 +306,7 @@ fast
 disabled
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-inout
+out
 </TD>
 </TR>
 <TR valign="top">
@@ -29499,10 +29499,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 Chip Select, Output</B>
@@ -29662,7 +29662,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 1 Control</B>
@@ -29766,10 +29766,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 IO Bit 0, Input/Output</B>
@@ -29929,7 +29929,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 2 Control</B>
@@ -30033,10 +30033,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 IO Bit 1, Input/Output</B>
@@ -30196,7 +30196,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 3 Control</B>
@@ -30300,10 +30300,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 IO Bit 2, Input/Output</B>
@@ -30463,7 +30463,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 4 Control</B>
@@ -30567,10 +30567,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 IO Bit 3, Input/Output</B>
@@ -30730,7 +30730,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 5 Control</B>
@@ -30834,10 +30834,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 Clock, Output</B>
@@ -30997,7 +30997,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 6 Control</B>
@@ -75431,10 +75431,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 Chip Select</B>
@@ -75594,7 +75594,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 1 Control</B>
@@ -75698,10 +75698,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 IO Bit 0</B>
@@ -75861,7 +75861,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 2 Control</B>
@@ -75965,10 +75965,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 IO Bit 1</B>
@@ -76128,7 +76128,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 3 Control</B>
@@ -76232,10 +76232,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 IO Bit 2</B>
@@ -76395,7 +76395,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 4 Control</B>
@@ -76499,10 +76499,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 IO Bit 3</B>
@@ -76662,7 +76662,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 5 Control</B>
@@ -76766,10 +76766,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0: Level 1 Mux 1: Quad SPI 0 Clock Output</B>
@@ -76929,7 +76929,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Pin 6 Control</B>
@@ -120725,10 +120725,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0= Level 1 Mux Output 1= qspi_sel, Output, qspi_n_ss_out- (QSPI Select)</B>
@@ -120888,7 +120888,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Control for Pin 1</B>
@@ -120992,10 +120992,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Output, qspi_mo_mo0- (QSPI Databus) 1= qspi, Input, qspi_si_mi0- (QSPI Databus)</B>
@@ -121155,7 +121155,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Control for Pin 2</B>
@@ -121259,10 +121259,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Input, qspi_mi_mi1- (QSPI Databus) 1= qspi, Output, qspi_so_mo1- (QSPI Databus)</B>
@@ -121422,7 +121422,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Control for Pin 3</B>
@@ -121526,10 +121526,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Input, qspi_mi2- (QSPI Databus) 1= qspi, Output, qspi_mo2- (QSPI Databus)</B>
@@ -121689,7 +121689,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Control for Pin 4</B>
@@ -121793,10 +121793,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Input, qspi_mi3- (QSPI Databus) 1= qspi, Output, qspi_mo3- (QSPI Databus)</B>
@@ -121956,7 +121956,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Control for Pin 5</B>
@@ -122060,10 +122060,10 @@ SLCR_LOCK
 <B>2</B>
 </TD>
 <TD width=10% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>1</B>
 </TD>
 <TD width=15% BGCOLOR=#FBF5EF>
-<B>0</B>
+<B>2</B>
 </TD>
 <TD width=35% BGCOLOR=#FBF5EF>
 <B>Level 0 Mux Select 0= Level 1 Mux Output 1= qspi, Output, qspi_sclk_out- (QSPI Clock)</B>
@@ -122223,7 +122223,7 @@ SLCR_LOCK
 <B></B>
 </TD>
 <TD width=15% BGCOLOR=#C0C0C0>
-<B>700</B>
+<B>702</B>
 </TD>
 <TD width=35% BGCOLOR=#C0C0C0>
 <B>MIO Control for Pin 6</B>
