@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4
+# SW Build 353583 on Mon Dec  9 17:38:55 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Thu Apr 10 10:15:55 2014
+# Process ID: 1928
+# Log file: C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1/System_wrapper.rds
+# Journal file: C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/lab3/lab3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source System_wrapper.tcl
