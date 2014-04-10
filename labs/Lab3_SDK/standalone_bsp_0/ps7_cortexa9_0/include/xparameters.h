@@ -98,10 +98,16 @@
 
 /******************************************************************/
 
+/* Definitions for driver LED_IP */
+#define XPAR_LED_IP_NUM_INSTANCES 1
 
 /* Definitions for peripheral LED_IP */
+#define XPAR_LED_IP_DEVICE_ID 0
 #define XPAR_LED_IP_S_AXI_BASEADDR 0x43C00000
 #define XPAR_LED_IP_S_AXI_HIGHADDR 0x43C00FFF
+
+
+/******************************************************************/
 
 
 /* Definitions for peripheral PS7_AFI_0 */
