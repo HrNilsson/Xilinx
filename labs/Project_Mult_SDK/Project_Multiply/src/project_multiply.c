@@ -3,7 +3,8 @@
 #include "xutil.h"
 #include "XScuTimer.h"
 
-#define ONE_SECOND 333000000 // half of the CPU clock speed
+//#define ONE_SECOND 333000000 // half of the CPU clock speed
+#define ONE_SECOND 1333000 //1,333 MHz??
 // Matrix size
 #define MSIZE 4
 
@@ -134,43 +135,47 @@ int main(void) {
 	// Set AutoLoad mode
 	XScuTimer_EnableAutoReload(&Timer);
 
-	timerCounter = 0;
-
 	while (1) {
 		xil_printf("CMD:> ");
-		/* Read an input value from the console. */
+		// Read an input value from the console.
 		value = inbyte();
 		skip = inbyte(); //CR
 		skip = inbyte(); //LF
 		switch (value) {
 			case '1':
-				dip_check = XGpio_DiscreteRead(&dip, 1);
-				LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, dip_check);
+				while(!XGpio_DiscreteRead(&push, 1))
+				{
+					dip_check = XGpio_DiscreteRead(&dip, 1);
+					LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, dip_check);
+					for (skip = 0; skip < 9999999; skip++);
+				}
 				break;
 			case '2':
-				// Start the timer
-				XScuTimer_Start(&Timer);
-				if(XScuTimer_IsExpired(&Timer))
-				{
-					XScuTimer_LoadTimer(&Timer, ONE_SECOND);
-					timerCounter = (timerCounter + 1) % 256;
-					LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, XScuTimer_GetCounterValue(&Timer));
-				}
 
+				timerCounter = 0;
+				XScuTimer_Start(&Timer);
+
+				while(!XGpio_DiscreteRead(&push, 1))
+				{
+					if(XScuTimer_IsExpired(&Timer))
+					{
+						XScuTimer_ClearInterruptStatus(&Timer);
+						timerCounter = (timerCounter + 1) % 256;
+						LED_IP_mWriteReg(XPAR_LED_IP_S_AXI_BASEADDR, 0, timerCounter);
+					}
+				}
 				break;
 			case '3':
 				setInputMatrices(AInst, BTinst);
 				displayMatrix(AInst);
 				displayMatrix(BTinst);
 
-//				XScuTimer_Start(&Timer);
+				XScuTimer_Start(&Timer);
 				// Software matrix
 				time1 = XScuTimer_GetCounterValue(&Timer);
 				multiMatrixSoft(AInst, BTinst, PInst);
 				time2 = XScuTimer_GetCounterValue(&Timer);
 
-				xil_printf("SW time2: %d\n", time2);
-				xil_printf("SW time1: %d\n", time1);
 				xil_printf("SW time: %d\n\n", time1-time2);
 				displayMatrix(PInst);
 
@@ -181,8 +186,6 @@ int main(void) {
 
 				XScuTimer_Stop(&Timer);
 
-				xil_printf("HW time2: %d\n", time2);
-				xil_printf("HW time1: %d\n", time1);
 				xil_printf("HW time: %d\n\n", time1-time2);
 				displayMatrix(PInst);
 				break;
@@ -193,7 +196,6 @@ int main(void) {
 			default :
 				break;
 		}
-
 	}
 }
 /*
