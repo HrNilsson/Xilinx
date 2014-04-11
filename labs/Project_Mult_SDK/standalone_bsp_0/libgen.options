@@ -1,0 +1,3 @@
+PROCESSOR=ps7_cortexa9_0
+REPOSITORIES=
+HWSPEC=C:/Users/ReneNilsson/Documents/GitHub/Xilinx/labs/project_multiply/project_multiply.sdk/SDK/SDK_Export/hw_platform_0/system.xml
